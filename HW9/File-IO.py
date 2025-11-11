@@ -21,10 +21,9 @@ with open('ticket.txt', 'r') as infile, open('output.txt', 'w') as outfile:
         outfile.write("          TICKET REPORT\n")
         outfile.write("**************************************\n")
         outfile.write(f"There are {count} tickets in the database.\n")
-
-        outfile.write(f"The Maximum Ticket price is ${max_price:.2f}.\n")
-        outfile.write(f"The minimum Ticket price is ${min_price:.2f}.\n")
-        outfile.write(f"The average Ticket Price is ${average_price:.2f}.\n")
+        outfile.write(f"The maximum ticket price is ${max_price:.2f}.\n")
+        outfile.write(f"The minimum ticket price is ${min_price:.2f}.\n")
+        outfile.write(f"The average ticket Price is ${average_price:.2f}.\n")
         outfile.write("Thank you for using our ticket system!\n")
     else:
         outfile.write("**************************************\n")
